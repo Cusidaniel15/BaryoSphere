@@ -1,0 +1,108 @@
+@font-face {
+	font-family: myFont;
+	src: url(moonet.ttf.otf);
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Times New Roman", serif;
+}
+.header1 .navbar1 li{
+	list-style: none;   
+}
+.header1 .navbar1 a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.2rem;
+}
+.header1 .navbar1 a:hover{
+	color: #64db7c;
+}
+.header1 a .action_button:hover{
+	scale: 1.05;
+	background-color: #fff;
+	color: #64db7c;
+}
+.header1 header{
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 100%;
+	z-index: 1000;
+	background-color: rgba(49, 90, 57, 0.9);
+	padding: 0 2rem;
+}
+.header1 .navbar1{
+	width: 100%;
+	height: 60px;
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.navbar1 .logo a{
+	font-size: 2rem;
+	font-family: myFont;
+	color: #fff;
+    text-decoration: none;
+}
+.navbar1 .links{
+	width: 100%;
+    margin-top: 10px;
+    
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	gap: auto;
+    text-decoration: none;
+}
+.navbar1 .links li {    
+    list-style-type: none;
+  }
+.navbar1 .links a{
+	padding: 10px 20px;
+	border: none;
+	outline: none;
+	font-size: 1.2rem;
+	font-weight: 500;
+	border-radius: 10px;
+    color: #fff;
+	cursor: pointer;
+	transition: scale 0.2 ease;
+    text-decoration: none;
+}
+.navbar1 .links a:hover{
+	background-color: #fff;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+.navbar1 .toggle_btn{
+	color: #fff;
+	font-size: 1.5rem;
+	cursor: pointer;
+	display: none;
+}
+.header1 .action_button{
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	outline: none;
+    text-decoration: none;
+	font-size: 1.2rem;
+	font-weight: 500;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: scale 0.2 ease;
+}
+.action_button:hover{
+	scale: 1.05;
+	background-color: #fff;
+	color: #17752a;
+}
+.action_button:active{
+	scale: 0.95;
+}
